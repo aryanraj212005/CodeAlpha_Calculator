@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Scientific Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-glow-1"></div>
+    <div class="background-glow-2"></div>
+    
+    <div class="calculator">
+        <h1>Scientific <span class="gradient-text">Calculator</span></h1>
+        
+        <div class="display-container">
+            <div id="display">0</div>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn-dark" data-action="sin">sin</button>
+            <button class="btn-dark" data-action="cos">cos</button>
+            <button class="btn-dark" data-action="factorial">x!</button>
+            <button class="btn-dark" data-action="inverse">1/x</button>
+
+            <button class="btn-dark" data-action="square">x²</button>
+            <button class="btn-dark" data-action="cube">x³</button>
+            <button class="btn-dark" data-action="sqrt">√</button>
+            <button class="btn-dark" data-action="percent">%</button>
+
+            <button class="btn-action" data-action="clear">AC</button>
+            <button class="btn-action" data-action="delete">DEL</button>
+            <button class="btn-action" data-value="/">/</button>
+            <button class="btn-action" data-value="*">×</button>
+            
+            <button class="btn-card" data-value="7">7</button>
+            <button class="btn-card" data-value="8">8</button>
+            <button class="btn-card" data-value="9">9</button>
+            <button class="btn-action" data-value="-">-</button>
+            
+            <button class="btn-card" data-value="4">4</button>
+            <button class="btn-card" data-value="5">5</button>
+            <button class="btn-card" data-value="6">6</button>
+            <button class="btn-action" data-value="+">+</button>
+            
+            <button class="btn-card" data-value="1">1</button>
+            <button class="btn-card" data-value="2">2</button>
+            <button class="btn-card" data-value="3">3</button>
+            <button class="btn-gradient" data-action="calculate">=</button>
+            
+            <button class="btn-card btn-zero" data-value="0">0</button>
+            <button class="btn-card" data-value=".">.</button>
+        </div>
+        
+        <div class="footer-text">CodeAlpha</div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
